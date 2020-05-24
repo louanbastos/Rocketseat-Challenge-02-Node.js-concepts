@@ -2,7 +2,6 @@ console.clear();
 const express = require("express");
 const cors = require("cors");
 const { uuid, isUuid } = require("uuidv4");
-var mongoose = require("mongoose");
 
 const app = express();
 
